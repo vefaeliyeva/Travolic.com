@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  font-family: Poppins, "sans-serif";
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #c4c4c4;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--blueBtn);
+  }
+}
+body {
+  font-family: Poppins, sans-serif;
+}
+.travolic {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.agencyweb {
+  text-align: center;
+  font-size: 100px;
+}
+.agencyweb a{ 
+    color: #1090CB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  text-align: left;
+}
+.texttitle {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+.imgtitle {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 44.48px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.imgtext {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.46px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+/* & NAVBAR */
+.nav_bar {
+  padding: 32px;
+  border-bottom: 0.7px solid #c4c4c4;
+}
+.nav_bar h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43.5px;
+  text-align: left;
+  color: var(--mainBlue);
+}
+.nav_list {
+  padding-right: 16px;
+  width: 60%;
+  gap: 82px;
+  margin: 0;
+}
+.nav_list a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: black;
+}
+.nav_list li:nth-child(2) a {
+  color: var(--mainBlue);
+}
+.nav_bar button {
+  padding: 10px 26px;
+  background-color: var(--mainBlue);
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.active {
+  color: var(--mainBlue) !important;
+  display: flex;
+}
+
+.active::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--mainBlue);
+  margin-right: 4px;
+}

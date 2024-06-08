@@ -1,0 +1,169 @@
+  .experienced {
+    display: flex;
+    background-color: #1090cb1a;
+    position: relative;
+    height: 100vh;
+  }
+  .experienced_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 128px 40px 164px 124px;
+    gap: 64px;
+  }
+  .experienced_left_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .experienced_left_text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+  }
+  .experienced_left_text h1 span {
+    color: var(--mainBlue);
+  }
+  .experienced_left_text p {
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+  }
+  .experienced_left_button {
+    display: flex;
+    gap: 16px;
+  }
+  .experienced_left button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 10px 52px;
+    border-radius: 10px;
+    border: 1px solid var(--mainBlue);
+    cursor: pointer;
+  }
+  .experienced_left_button button:first-child {
+    background-color: var(--mainBlue);
+    color: white;
+  }
+  .experienced_left_button button:nth-child(2) {
+    color: var(--mainBlue);
+    background-color: white;
+  }
+  .experienced_right {
+    width: 50%;
+  }
+  .experienced_right img {
+    width: 100%;
+  }
+  .experienced_icons img:nth-child(1) {
+    position: absolute;
+    left: 0px;
+    bottom: -200px;
+    z-index: 1;
+  }
+  .experienced_icons img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    z-index: 1;
+  }
+  .application {
+    padding: 44px 124px;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 0.7px solid #c4c4c4;
+  }
+  .app_image {
+    width: 84px;
+    height: 84px;
+  }
+  .app_image  img {
+    width: 34px;
+    height: 34px;
+    padding: 26px;
+    border-radius: 20px;
+    border: 2px solid none;
+  }
+  
+  
+  
+  
+  .lorem_ispum {
+  padding: 116px 296px 82px 296px ;
+  }
+  .lorem_ispum h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  }
+  .lorem_ispum p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #868686;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    .experienced {
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+    }
+  }
+  /* ! "Guya Bootstrapfason nese yaratmisam */
+  .d-flex {
+    display: flex;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .f-weight-400 {
+    font-weight: 400;
+  }
+  .f-weight-500 {
+    font-weight: 500;
+  }
+  .f-size-16 {
+    font-size: 16px;
+  }
+  .f-size-20 {
+    font-size: 20px;
+  }
+  .l-height-36 {
+    line-height: 36px;
+  }
+  .txt-algn-lft {
+    text-align: left;
+  }
+  .txt-clr-grey {
+    color: #969696;
+  }
+  .txt-clr-black {
+    color: #000000;
+  }
+  
+  .cards-gap {
+    gap: 14px;
+  }
+  .b-rad-20 {
+    border-radius: 20px;
+  }
+  
+  
