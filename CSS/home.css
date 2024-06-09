@@ -1,0 +1,255 @@
+.experienced {
+  display: flex;
+  background-color: #1090cb1a;
+  height: 100vh;
+}
+.experienced_left {
+  padding: 128px 40px 164px 124px;
+  gap: 64px;
+}
+.experienced_left_text {
+  gap: 16px;
+}
+.experienced_left_text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+.experienced_left_text h2 span {
+  color: var(--mainBlue);
+}
+.experienced_left_text p {
+  color: #5c5c5c;
+}
+.experienced_left_button {
+  gap: 16px;
+}
+.experienced_left button {
+  padding: 10px 52px;
+  border-radius: 10px;
+  border: 1px solid var(--mainBlue);
+  cursor: pointer;
+}
+.experienced_left_button button:first-child {
+  background-color: var(--mainBlue);
+  color: white;
+}
+.experienced_left_button button:nth-child(2) {
+  color: var(--mainBlue);
+  background-color: white;
+}
+.experienced_right {
+  width: 50%;
+}
+/* .experienced_right img {
+    width: 100%;
+  } */
+.experienced_icons img:nth-child(1) {
+  position: absolute;
+  left: 0px;
+  bottom: -200px;
+}
+.experienced_icons img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  z-index: 1;
+}
+.application {
+  padding: 44px 124px;
+  border-bottom: 0.7px solid #c4c4c4;
+}
+.app_image {
+  width: 84px;
+  height: 84px;
+  border-radius: 20px;
+}
+.app_image img {
+  padding: 23px;
+  border: 2px solid none;
+}
+.app_cards {
+  gap: 18px;
+}
+.lorem_ispum {
+  padding: 116px 296px 82px 296px;
+}
+.lorem_ispum h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+}
+.lorem_ispum p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #868686;
+}
+.phone_section {
+  padding: 0px 124px 124px 124px;
+  position: relative;
+}
+.focus {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.focus1 {
+  position: absolute;
+  right: -270px;
+  top: 0;
+  z-index: 1;
+}
+.phone_left {
+  gap: 44px;
+  width: 43%;
+}
+.happy_section {
+  gap: 25px;
+}
+.happy_section p:nth-child(1) {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29.75px;
+  text-align: left;
+}
+.happy_section p:nth-child(2) {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+  text-align: left;
+  color: rgba(134, 134, 134, 1);
+}
+.happy {
+  width: 58px;
+  height: 58px;
+  background-color: aqua;
+  border-radius: 99%;
+  padding: 14px;
+}
+.phone_left h3 {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 51px;
+}
+.phone_left h3 span {
+  color: var(--mainBlue);
+}
+.phone_left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: rgba(84, 84, 84, 1);
+}
+.phone_right {
+  width: 50%;
+}
+.bell_section {
+  padding: 0px 123px;
+  gap: 50px;
+  position: relative;
+}
+.bell_cards {
+  gap: 36px;
+  text-align: center;
+  padding: 64px 48px;
+  border-radius: 20px;
+  background-color: rgba(244, 244, 244, 1);
+}
+.bell_cards_right {
+  gap: 36px;
+  text-align: center;
+  padding: 64px 48px;
+  border-radius: 20px;
+  background-color: var(--mainBlue);
+}
+.bell_cards h4 {
+  padding: 0px 56px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 42.5px;
+}
+.bell_cards_right h4 {
+  padding: 0px 56px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 42.5px;
+  color: white;
+}
+.bell_cards p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: rgba(84, 84, 84, 1);
+}
+.bell_cards_right p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: white;
+}
+.bell_cards button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+  text-align: center;
+  border-radius: 10px;
+  width: max-content;
+  padding: 11px 35px;
+  color: white;
+  background-color: var(--mainBlue);
+}
+.bell_cards_right button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+  text-align: center;
+  border-radius: 10px;
+  width: max-content;
+  padding: 11px 35px;
+  color: var(--mainBlue);
+  background-color: white;
+}
+.bellimg1 {
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+  z-index: -1;
+}
+.bellimg2 {
+  position: absolute;
+  top: -80px;
+  right: 140px;
+}
+.add_section {
+  padding: 184px 200px 0 200px;
+  position: relative;
+}
+.add_title h5 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38.16px;
+  text-align: center;
+}
+.add_images {
+  gap: 115px;
+}
+.beneoback {
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  z-index: -1;
+}
+.beneoback1 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
