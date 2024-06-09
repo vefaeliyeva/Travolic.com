@@ -1,13 +1,138 @@
+body {
+  text-align: left;
+}
+.hero_section {
+  padding-top: 156px;
+  position: relative;
+  gap: 60px;
+}
+.iconleft {
+  position: absolute;
+  bottom: 0;
+}
+.iconright {
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
 .hero_top {
-    padding: ;
+  padding: 0px 132px 0px 90px;
+  gap: 70px;
+}
+.hero_top_img {
+  gap: 50px;
 }
 .hero_bottom {
-    padding: 0px 164px 220px 164px;
-position: relative;
-gap: 52px;
+  padding: 0px 164px 220px 164px;
+  position: relative;
+  gap: 52px;
 }
-
 .dots {
-    position: absolute;
-    right: ;
+  position: absolute;
+  right: 64px;
+  bottom: 134px;
+  z-index: -1;
+}
+.hero_top_text {
+  gap: 20px;
+}
+.hero_top_text h2 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  color: var(--mainBlue);
+}
+.hero_top_text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 68px;
+}
+.hero_top_text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+  color: #868686;
+  width: 80%;
+}
+.information_section h4 {
+  padding: 0px 510px 48px 124px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 72px;
+  color: var(--mainBlue);
+  margin: 0;
+}
+.information_section p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 304px 178px 124px;
+  line-height: 40px;
+  margin: 0;
+}
+.kodex_section {
+  padding-left: 124px;
+  gap: 52px;
+}
+.kodex_left {
+  width: 40%;
+  gap: 30px;
+}
+.kodex_left img {
+  width: 54px;
+  height: 5px;
+}
+.kodex_left h5 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.kodex_left p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #585858;
+}
+.kodex_left button {
+  color: var(--mainBlue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  text-align: left;
+  padding: 10px 50px;
+  border: 1px solid var(--mainBlue);
+  border-radius: 10px;
+  background-color: white;
+  width: max-content;
+}
+.kodex_right {
+  box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  gap: 56px;
+  padding-left: 62px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 44.48px;
+  letter-spacing: 0.01em;
+  height: max-content;
+}
+.kodex_right p{ 
+  margin-bottom: 0px;
+}
+.kodex_right_top {
+  padding-top: 86px;
+  gap: 90px;
+}
+.kodex_right_bottom {
+  padding-bottom: 86px;
+  gap: 56px;
+}
+.img_bg_div {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  padding: 24px;
+}
+.img_gap {
+  gap: 22px;
 }

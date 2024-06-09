@@ -4,43 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
-    <link rel="stylesheet" href="../CSS/reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/root.css">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/aboutus.css">
+    <link rel="stylesheet" href="../CSS/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/root.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/aboutus.css" />
   </head>
   <body>
     <!-- !HEADER -->
-
     <header>
       <nav class="nav_bar d-flex justify-content-between align-items-center">
         <h1>Travolic</h1>
-
         <ul class="nav_list d-flex justify-content-end align-items-center">
-          <li><a href="">Home</a></li>
-          <li><a class="active" href="">About us</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="./home.html">Home</a></li>
+          <li><a class="active" href="./services.html">About us</a></li>
+          <li><a href="./services.html">Services</a></li>
         </ul>
-
-        <button>Contact us</button>
+        <button>
+          <a href="./contactus.html">Contact us</a>
+        </button>
       </nav>
     </header>
-
     <main>
       <article>
         <!-- * HERO SECTION -->
-        <section class="">
-          <img src="../assets/image/aboutuspage/leftsideicon.svg" alt="" />
-          <img src="../assets/image/aboutuspage/rightsideicon.svg" alt="" />
-          <div class="">
-            <div class="">
-              <img src="../assets/image/aboutuspage/image1.svg" alt="" />
-              <img src="../assets/image/aboutuspage/image2.svg" alt="" />
+        <section class="hero_section d-flex flex-column">
+          <img
+            class="iconleft"
+            src="../assets/image/aboutuspage/leftsideicon.svg"
+            alt="Blue Icon"
+          />
+          <img
+            class="iconright"
+            src="../assets/image/aboutuspage/rightsideicon.svg"
+            alt="Green Icon"
+          />
+          <div class="hero_top d-flex">
+            <div class="hero_top_img d-flex align-items-end">
+              <img src="../assets/image/aboutuspage/image1.svg" alt="IT Lesson Picture" />
+              <img src="../assets/image/aboutuspage/image2.svg" alt="IT Lesson Picture" />
             </div>
-
-            <div>
+            <div class="hero_top_text d-flex flex-column align-content-end">
               <h2>About us</h2>
               <h3>Lorem Ipsum is simply dummy text of the printing.</h3>
               <p>
@@ -49,15 +62,18 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <img src="../assets/image/aboutuspage/dots.svg" alt="" />
-            <img src="../assets/image/aboutuspage/image3.svg" alt="" />
-            <img src="../assets/image/aboutuspage/image4.svg" alt="" />
+          <div class="hero_bottom d-flex">
+            <img
+              class="dots"
+              src="../assets/image/aboutuspage/dots.svg"
+              alt=""
+            />
+            <img src="../assets/image/aboutuspage/image3.svg" alt="IT Lesson Picture" />
+            <img src="../assets/image/aboutuspage/image4.svg" alt="IT Lesson Picture" />
           </div>
         </section>
         <!-- * INFORMATION TEXT SECTION -->
-
-        <section>
+        <section class="information_section">
           <h4>Lorem Ipsum is simply dummy text of the printing.</h4>
           <p>
             KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
@@ -67,11 +83,10 @@
             applications for several top platforms, including Android & IOS.
           </p>
         </section>
-
-        <!-- * KODEX TECNHOLOGY SEVTION -->
-
-        <section>
-          <div>
+        <!-- * KODEX TECNHOLOGY SECTION -->
+        <section class="kodex_section d-flex">
+          <div class="kodex_left d-flex flex-column">
+            <img src="../assets/image/aboutuspage/kodexline.svg" alt="Line" />
             <h5>Lorem Ipsum is simply dummy text of the printing.</h5>
             <p>
               KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
@@ -81,31 +96,39 @@
             <button>Contact us</button>
           </div>
           <!-- & SAG TEREF SERIY DIV -->
-          <div>
+          <div class="kodex_right d-flex flex-column">
             <!-- ! QIRMIZI  -->
-            <div>
+            <div class="kodex_right_top d-flex">
               <!--* YASIL -->
-              <div>
-                <div><img src="" alt="" /></div>
-                <p>SEO</p>
+              <div class="d-flex img_gap align-items-center">
+                <div class="img_bg_div bgweb">
+                  <img src="../assets/image/aboutuspage/webapp.svg" alt="Web Application Icon" />
+                </div>
+                <p>Web Application</p>
               </div>
               <!--* YASIL -->
-              <div>
-                <div><img src="" alt="" /></div>
+              <div class="d-flex img_gap align-items-center">
+                <div class="img_bg_div bgseo">
+                  <img src="../assets/image/aboutuspage/seoapp.svg" alt="SEO Icon" />
+                </div>
                 <p>SEO</p>
               </div>
             </div>
             <!-- ! QIRMIZI  -->
-            <div>
+            <div class="kodex_right_bottom d-flex">
               <!--* YASIL -->
-              <div>
-                <div><img src="" alt="" /></div>
-                <p>SEO</p>
+              <div class="d-flex img_gap align-items-center">
+                <div class="img_bg_div bgmob">
+                  <img src="../assets/image/aboutuspage/mobapp.svg" alt="Mobile Application Icon" />
+                </div>
+                <p>Mobile Applications</p>
               </div>
               <!--* YASIL -->
-              <div>
-                <div><img src="" alt="" /></div>
-                <p>SEO</p>
+              <div class="d-flex img_gap align-items-center">
+                <div class="img_bg_div bgar">
+                  <img src="../assets/image/aboutuspage/arapp.svg" alt="AR/VR Icon" />
+                </div>
+                <p>AR/VR</p>
               </div>
             </div>
           </div>
@@ -114,22 +137,31 @@
     </main>
 
     <footer>
+      <!-- ^ FOOTER-TOP-->
       <section class="footer_top">
-        <div>
-          <img src="" alt="" />
-        <img src="" alt="" />
-        <h6>Lorem Ipsum is simply dummy text of the printing.</h6>
-        <div>
-          <form action="">
-            <input type="email" placeholder="Enter your email" />
-          </form>
-          <button>SUBSCRIBE</button>
-        </div>
+        <div class="footer_from d-flex flex-column align-items-center">
+          <img class="star" src="../assets/image/aboutuspage/star.svg" alt="Small Star Icon" />
+          <img
+            class="paichart"
+            src="../assets/image/aboutuspage/paichart.svg"
+            alt="Small Icon"
+          />
+          <h6>Lorem Ipsum is simply dummy text of the printing.</h6>
+          <div class="footer_top_email d-flex">
+            <div>
+              <form action="">
+                <input type="email" placeholder="Enter your email" />
+              </form>
+            </div>
+            <div>
+              <button>SUBSCRIBE</button>
+            </div>
+          </div>
         </div>
       </section>
-
-      <section class="footer_middle">
-        <div class="middle_logo">
+      <!-- ^ FOOTER-MIDDLE-->
+      <section class="footer_middle d-flex justify-content-evenly">
+        <div class="middle_logo d-flex flex-column">
           <p>LOGO</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -137,8 +169,7 @@
           </p>
           <p>@Lorem</p>
         </div>
-
-        <div class="middle_about">
+        <div class="middle_about d-flex flex-column">
           <p>About us</p>
           <ul>
             <li>Lorem</li>
@@ -147,8 +178,7 @@
             <li>Contact us</li>
           </ul>
         </div>
-
-        <div class="middle_contact">
+        <div class="middle_contact d-flex flex-column">
           <p>Contact us</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -156,15 +186,34 @@
           </p>
           <p>+994 50 555 55 55</p>
         </div>
-
-        <div class="middle_social">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <div class="middle_social d-flex align-items-end">
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/facebookicon.svg"
+              alt="facebook icon"
+            />
+          </div>
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/instagramicon.svg"
+              alt="instagram icon"
+            />
+          </div>
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/twittericon.svg"
+              alt="twitter icon"
+            />
+          </div>
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/linkedinicon.svg"
+              alt="linkedin icon"
+            />
+          </div>
         </div>
       </section>
-
+      <!-- ^ FOOTER-BOTTOM-->
       <section class="footer_bottom">
         <p>Copyright ® 2024 Lorem All rights Rcerved</p>
       </section>
