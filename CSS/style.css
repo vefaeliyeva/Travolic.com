@@ -94,13 +94,11 @@ body {
   line-height: 24px;
   color: black;
 }
-.nav_list li:nth-child(2) a {
-  color: var(--mainBlue);
-}
 .nav_bar button {
   padding: 10px 26px;
   background-color: var(--mainBlue);
   border-radius: 6px;
+  cursor: pointer;
 }
 .nav_bar button a {
   color: white;
@@ -108,6 +106,9 @@ body {
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
+}
+.nav_bar button:hover {
+  scale: 1.1;
 }
 .active {
   color: var(--mainBlue) !important;
@@ -145,7 +146,7 @@ font-size: 30px;
 font-weight: 600;
 line-height: 51px;
 text-align: center;
-width: 70%;
+width: 75%;
 }
 
 .footer_from button {
