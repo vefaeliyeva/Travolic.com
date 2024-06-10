@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../CSS/contactus.css" />
   </head>
   <body>
+    <!-- ^ HEADER -->
     <header>
       <nav class="nav_bar d-flex justify-content-between align-items-center">
         <h1>Travolic</h1>
@@ -33,11 +34,94 @@
         </button>
       </nav>
     </header>
-    <footer>
-      <section class="footer_top"></section>
+    <main>
+      <article>
+        <!-- ^ HERO SECTION -->
+        <section class="hero_section d-flex justify-content-center">
+          <div class="hero_left d-flex flex-column w-50">
+            <img src="../assets/image/contactus/beverly.svg" alt="beverly" />
+            <h2>Let’s Collaborate</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing .</p>
+          </div>
+          <div class="hero_right w-50">
+            <img src="../assets/image/contactus/map.svg" alt="map" />
+          </div>
+        </section>
+        <!-- ^ INFO SECTION -->
+        <section class="info_section d-flex justify-content-center">
+          <div class="info_social d-flex flex-column w-25">
+            <p>Follow us</p>
 
-      <section class="footer_middle">
-        <div class="middle_logo">
+            <div class="socials d-flex">
+              <div>
+                <img src="../assets/image/contactus/facebook.svg" alt="facebook" />
+              </div>
+
+              <div>
+                <img src="../assets/image/contactus/instagram.svg" alt="instagram" />
+              </div>
+
+              <div>
+                <img src="../assets/image/contactus/twitter.svg" alt="twitter" />
+              </div>
+
+              <div>
+                <img src="../assets/image/contactus/linkedin.svg" alt="linkedin" />
+              </div>
+            </div>
+          </div>
+
+          <div class="info_phone d-flex justify-content-center align-items-center">
+            <img src="../assets/image/contactus/phone.svg" alt="phoneIcon" />
+            <p>+994 50 555 55 55</p>
+          </div>
+
+          <div class="info_location d-flex justify-content-center align-items-center">
+            <img src="../assets/image/contactus/gps.svg" alt="gpsIcon" />
+            <p>but also the leap into electronic typesetting</p>
+          </div>
+        </section>
+        <!-- ! FORM SECTION -->
+        <section class="form_section d-flex flex-column">
+          <div class="form_title">
+            <h3>Say hello</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing .</p>
+          </div>
+          <!-- & -->
+          <form class="form_contact d-flex flex-column align-items-center justify-content-center">
+            <div
+              class="form_first d-flex justify-content-center align-items-center w-100"
+            >
+              <div>
+                <label for="">First Name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="">Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+            <!-- & -->
+            <div class="form_second d-flex flex-column justify-content-center">
+              <label for="">Email Adress</label>
+              <input type="email" />
+            </div>
+            <!-- & -->
+            <div
+              class="form_third w-100 d-flex flex-column justify-content-center"
+            >
+              <label for="">Message</label>
+              <textarea name="" rows="10" id=""></textarea>
+            </div>
+            <button>Get in touch</button>
+          </form>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <!-- ^ FOOTER-MIDDLE-->
+      <section class="footer_middle d-flex justify-content-evenly">
+        <div class="middle_logo d-flex flex-column">
           <p>LOGO</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -45,8 +129,7 @@
           </p>
           <p>@Lorem</p>
         </div>
-
-        <div class="middle_about">
+        <div class="middle_about d-flex flex-column">
           <p>About us</p>
           <ul>
             <li>Lorem</li>
@@ -55,8 +138,7 @@
             <li>Contact us</li>
           </ul>
         </div>
-
-        <div class="middle_contact">
+        <div class="middle_contact d-flex flex-column">
           <p>Contact us</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -64,15 +146,34 @@
           </p>
           <p>+994 50 555 55 55</p>
         </div>
-
-        <div class="middle_social">
-          <img src="./assets/image/facebook.svg" alt="" />
-          <img src="./assets/image/facebook.svg" alt="" />
-          <img src="./assets/image/facebook.svg" alt="" />
-          <img src="./assets/image/facebook.svg" alt="" />
+        <div class="middle_social d-flex align-items-end">
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/facebookicon.svg"
+              alt="facebook icon"
+            />
+          </div>
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/instagramicon.svg"
+              alt="instagram icon"
+            />
+          </div>
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/twittericon.svg"
+              alt="twitter icon"
+            />
+          </div>
+          <div class="socialDiv">
+            <img
+              src="../assets/image/aboutuspage/linkedinicon.svg"
+              alt="linkedin icon"
+            />
+          </div>
         </div>
       </section>
-
+      <!-- ^ FOOTER-BOTTOM-->
       <section class="footer_bottom">
         <p>Copyright ® 2024 Lorem All rights Rcerved</p>
       </section>
